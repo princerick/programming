@@ -63,7 +63,7 @@ public class ForLoop {
 //	public static void main(String[] args) {
 //		int n=5;
 //		int fact=1;
-//		for(int i=n;i>=1;i++)
+//		for(int i=n;i>=1;i--)
 //		{
 //			fact=fact*i;
 //		}
@@ -187,18 +187,18 @@ public class ForLoop {
 //							count the factors of a number	
 	
 	
-	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number");
-		int n=sc.nextInt();
-		int count=0;
-		for(int i=1;i<=n;i++) {
-			if(n%i==0) {
-				count++;
-			}
-		}
-		System.out.println("Numbers of factors are "+count);
-	}
+//	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter a number");
+//		int n=sc.nextInt();
+//		int count=0;
+//		for(int i=1;i<=n;i++) {
+//			if(n%i==0) {
+//				count++;
+//			}
+//		}
+//		System.out.println("Numbers of factors are "+count);
+//	}
 	
 	
 //							factorial of numbers in range	
