@@ -20,8 +20,7 @@ public class InsertElement {
 		System.out.println("\nEnter the updating element ");
 		int ele=sc.nextInt();
 		int [] b = new int[size+1];
-		for (int i = 0; i < b.length; i++)
-		{
+		int i = 0;
 		for(int j = 0 ; j < size ; j++)
 		{
 			if(i == 1)
@@ -32,9 +31,8 @@ public class InsertElement {
 			b[i] = a[j];
 			i++;
 		}
-		}
 		System.out.println("\nUpdated array elements are... ");
-		for (int i = 0; i < b.length; i++) 
+		for ( i = 0; i < b.length; i++) 
 		{
 			System.out.print(b[i]+" ");
 		}

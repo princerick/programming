@@ -35,7 +35,8 @@ public class IdenticalArray {
 				else
 				{
 					flag = false;
-				}
+					break;
+				}  
 			}
 			if(flag == true)
 			{

@@ -12,29 +12,37 @@ public class Reverse {
 		for(int i = 0 ; i < size ; i++) {
 			 a[i] = sc.nextInt();
 		}
-		int count=0;
-		for(int i = 0 ; i < size ; i++)
-		{
-			count++;
-			size-=count;
-			int temp=0;
-			temp = a[i];
-			a[i] = a[size];
-			a[a.length-1] = temp;
-			
-		}
-		for(int i = 0 ; i < a.length ; i++)
-		{
-			System.out.println(a[i]);
-		}
-		
+//		int count=0;
+//		for(int i = 0 ; i < size ; i++)
+//		{
+//			count++;
+//			size-=count;
+//			int temp=0;
+//			temp = a[i];
+//			a[i] = a[size];
+//			a[a.length-1] = temp;
+//			
+//		}
+//		for(int i = 0 ; i < a.length ; i++)
+//		{
+//			System.out.println(a[i]);
+//		}
+//		
 		
 //						reverse using another array
 		
-//		int [] b = new int [a.length];
-//		for(int i = a.length-1 ; i >= 0 ; i--) {
-//			b[i] = a[i];
-//			System.out.println(b[i]);
-//		}
+		int [] b = new int [a.length];
+		for(int i = a.length-1 ; i >= 0 ; i--) 
+		{
+			for(int j = 0 ; j < b.length ; j++)
+			{
+				b[j] = a[i];
+				i--;
+			}
+		}
+		for(int j = 0 ; j < b.length ; j++)
+		{
+			System.out.print(b[j]+" ");
+		}
 	}
 }
