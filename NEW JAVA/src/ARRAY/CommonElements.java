@@ -20,7 +20,7 @@ public class CommonElements {
 			 b[i] = sc.nextInt();
 		}
 		for(int j = 0 ; j < a.length ; j++)
-			for(int i = 0 ; i < b.length ; i++) {
+			for(int i = 0; i < b.length ; i++) {
 			if(a[j]==b[i]) {
 				System.out.println(a[j]+" is the common element");
 			}

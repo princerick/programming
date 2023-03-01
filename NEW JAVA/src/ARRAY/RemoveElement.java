@@ -2,6 +2,8 @@ package ARRAY;
 
 import java.util.Scanner;
 
+//						remove element from particular index
+
 public class RemoveElement {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
@@ -17,24 +19,34 @@ public class RemoveElement {
 		{
 			System.out.print(a[i]+" ");
 		}
-		System.out.println("\nEnter the reomving index ");
-		int index=sc.nextInt();
-		int [] b = new int[size];
-		int x=0;
+		System.out.println("\nEnter the reomving element");
+		int ele=sc.nextInt();
+//		int [] b = new int[size];
+//		int x=0;
+//		for (int i = 0; i < size; i++)
+//		{
+//	       if(a[i] != ele) 
+//	       	{
+//	    	   b[x]=a[i];
+//	    	   x++;
+//	       	}
+//		}
 		for (int i = 0; i < size; i++)
 		{
-	       if(i!=index) 
-	       {
-			b[x]=a[i];
-			x++;
-	       }
+	       if(a[i] != ele) 
+	       	{
+	    	   a[i]=a[i];
+	       	}
 	       else
-	    	   b[x]=a[i];
-	}
+	       {
+	    	   a[i] = 0;
+	    	   i++;
+	       }
+		}
 		System.out.println("\nUpdated array elements are... ");
-		for (int i = 0; i < size-1; i++) 
+		for (int i = 0; i < size; i++) 
 		{
-			System.out.print(b[i]+" ");
+			System.out.print(a[i]+" ");
 		}
 }
 }

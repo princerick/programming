@@ -20,21 +20,24 @@ public class ZigzagMerge {
 			 b[j] = sc.nextInt();
 		}
 		int [] c = new int [a.length + b.length];
-		int j = 0;
 		int i = 0;
-		for(int k = 0 ; k < c.length ; k++) {
-			if(i < a.length) {
+		int j = 0;
+		for(int k = 0 ; k < c.length ; k++) 
+		{
+			if(i < a.length) 
+			{
 				c[k] = a[i++];
 				k++;
 			}
-			if(j < b.length) {
+			if(j < b.length) 
+			{
 					
 				c[k] = b[j++];
 			}
 		}
 		System.out.println("Merged array elements are");
 		for(int k = 0 ; k < c.length ; k++) {
-			System.out.println(c[k]);
+			System.out.print(c[k]+" ");
 		}
 	}
 }
