@@ -15,7 +15,7 @@ public class BubbleSort {
 		System.out.println("The array elements are... ");
 		for (int i = 0; i < a.length; i++) 
 		{
-			System.out.print(a[i]+" ");
+			System.out.print(a[i]+" "); 
 		}
 		for (int i = 0; i < a.length-1; i++)
 		{

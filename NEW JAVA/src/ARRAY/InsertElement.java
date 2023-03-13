@@ -13,7 +13,9 @@ public class InsertElement {
 			a[i]=sc.nextInt();
 		} 
 		System.out.println("The array elements are... ");
-		for (int i = 0; i < size; i++) 
+		for (int i = 0; i < size
+				
+				 ; i++) 
 		{
 			System.out.print(a[i]+" ");
 		}

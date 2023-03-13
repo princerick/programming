@@ -21,6 +21,9 @@ public class RemoveElement {
 		}
 		System.out.println("\nEnter the reomving element");
 		int ele=sc.nextInt();
+		
+//							using 2nd array	
+		
 //		int [] b = new int[size];
 //		int x=0;
 //		for (int i = 0; i < size; i++)
