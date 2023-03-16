@@ -21,5 +21,13 @@ public class LinkedMarks
 		l1.add(98);
 		l1.add(99);
 		System.out.println(l1);
+		l1.addFirst(100);
+		l1.addLast(200);
+		System.out.println(l1);
+		System.out.println(l1.getFirst());
+		System.out.println(l1.getLast());
+		l1.removeFirst();
+		l1.removeLast();
+		System.out.println(l1);
 	}
 }

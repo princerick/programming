@@ -1,4 +1,4 @@
-package JAVA2;
+package NUMBER_PROGRAM;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class HappyNumber {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a number ");
-		int n=sc.nextInt();
+		int n=sc.nextInt(); 
 		while(true) {
 			int sum=0;
 			while(n>0) {

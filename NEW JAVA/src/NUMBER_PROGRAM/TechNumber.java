@@ -1,4 +1,4 @@
-package JAVA2;
+package NUMBER_PROGRAM;
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ public class TechNumber {
 				}
 			}
 			else {
-				System.out.println("It's not a Tech number");
+			 	System.out.println("It's not a Tech number");
 			}
 		}
 	}

@@ -93,7 +93,7 @@ public class ForLoop {
 //		int n=sc.nextInt();
 //		int f1=0;
 //		int f2=1;
-//		int f3=0;
+//		int f3=0; 
 //		for(int i=1;i<=n;i++) {
 //			System.out.println(f1);
 //			f3=f1+f2;

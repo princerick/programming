@@ -1,19 +1,24 @@
-package JAVA2;
+package NUMBER_PROGRAM;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
-public class Odd {
+public class PrimeInRange {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the starting range");
 		int n1=sc.nextInt();
 		System.out.println("Enter the ending range");
 		int n2=sc.nextInt();
-		for (int i = n1; i <=n2; i++) {
+		for(int i=n1;i<=n2;i++) {
 			int n=i;
-			if(n%2==1) {
-				System.out.println(n);
+			boolean flag=true;
+			for (int j = 2; j <=n/2; j++) {
+				if(n%j==0) {
+					flag=false;
+				}
+			}
+			if(flag==true) {
+				System.out.println(n+" is Prime");
 			}
 		}
 	}

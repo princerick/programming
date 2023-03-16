@@ -1,5 +1,7 @@
 package ARRAY;
 
+import java.util.Arrays;
+
 public class Ascii {
 
 //					store ascii values of all char in ana array

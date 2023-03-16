@@ -2,7 +2,7 @@ package TRIANGLEPATTERN;
 
 import java.util.Scanner;
 
-public class Star11 {
+public class Piramid {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enetr the size ");
@@ -42,14 +42,14 @@ public class Star11 {
 		System.out.println();
 		for(int i=1;i<=r;i++) {
 			for(int j=1;j<=n-i;j++) {
-				System.out.print("  ");
+				System.out.print("  "); 
 			}
 			for(int k=1;k<=2*i-1;k++) {
 				System.out.print("* ");
 			}
 			System.out.println();
 		}
-		for(int i=5;i>=1;i--) {
+		for(int i=4;i>=1;i--) {
 			for(int j=1;j<=n-i;j++) {
 				System.out.print("  ");
 			}

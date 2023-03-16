@@ -13,17 +13,17 @@ public class HashSetProduct {
 		HashSet<Integer> h1 = new HashSet();
 		h1.add(5);
 		h1.add(4);
-		h1.add(3);
+		h1.add(3); 
 		h1.add(2);
 		h1.add(1);
 		
 //							using array		
 		
 		int prod = 1;
-		Integer [] arr =  h1.toArray(new Integer [h1.size()]);
+		Object[] arr =  h1.toArray();
 		for (int i = 0; i < arr.length; i++) 
 		{
-			prod = prod * arr[i];
+			prod = prod * (int)(arr[i]);
 		}
 		System.out.println(prod);
 		

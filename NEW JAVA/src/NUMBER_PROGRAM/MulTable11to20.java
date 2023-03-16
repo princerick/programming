@@ -1,4 +1,4 @@
-package JAVA2;
+package NUMBER_PROGRAM;
 
 public class MulTable11to20 {
 	public static void main(String[] args) {

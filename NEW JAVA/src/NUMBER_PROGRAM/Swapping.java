@@ -1,4 +1,4 @@
-package JAVA2;
+package NUMBER_PROGRAM;
 
 public class Swapping {
 	public static void main(String[] args) {
