@@ -17,7 +17,8 @@ public class PrimeInRange {
 					flag=false;
 				}
 			}
-			if(flag==true) {
+			if(flag==true)
+			{
 				System.out.println(n+" is Prime");
 			}
 		}
