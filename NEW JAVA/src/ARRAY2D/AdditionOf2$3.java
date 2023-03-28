@@ -17,7 +17,7 @@ public class AdditionOf2$3 {
 		int a[][]=new int[r][c];
 		for (int i = 0; i < a.length; i++) 
 		{
-			System.out.println("Enter the row "+i+1);
+			System.out.println("Enter the elements of row "+(i+1));
 			for (int j = 0; j < a[i].length; j++) 
 			{
 				a[i][j]=sc.nextInt();

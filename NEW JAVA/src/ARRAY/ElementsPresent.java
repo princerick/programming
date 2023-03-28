@@ -41,7 +41,7 @@ public class ElementsPresent {
 		}
 		if(flag == true)
 		{
-			System.out.println("All the elements of 1st are present in 2nd array");
+			System.out.println("All the elements of 1st array are present in 2nd array");
 		}
 		else
 		{

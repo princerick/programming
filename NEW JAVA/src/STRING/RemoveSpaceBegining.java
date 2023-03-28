@@ -2,7 +2,7 @@ package STRING;
 
 import java.util.Scanner;
 
-public class RemoveSpace {
+public class RemoveSpaceBegining {
 
 //						remove space from beginning
 	

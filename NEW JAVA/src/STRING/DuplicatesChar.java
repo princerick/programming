@@ -21,7 +21,7 @@ public class DuplicatesChar {
 				{
 					if(ch == s.charAt(j))
 					{
-						System.out.println(ch+" is a duplicate char");
+						System.out.println(ch+" is duplicate here");
 						visit += ch;
 						break;
 					}

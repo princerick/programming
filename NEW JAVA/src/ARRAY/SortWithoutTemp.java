@@ -1,6 +1,6 @@
 package ARRAY;
 
-public class P11 {
+public class SortWithoutTemp {
 public static void main(String[] args) {
 	int a[]= {1,3,5,7,8,2};
 	for(int i=0; i<a.length; i++)

@@ -54,20 +54,30 @@ public class ElementsSameOrNot {
 		{
 			for(int j = 0 ; j < c2 ; j++)
 			{
-				if(arr [i][j] != arr2 [i][j])
+				for (int j2 = 0; j2 < arr2.length; j2++) 
 				{
-					flag = false;
-					break;
+					for (int k = 0; k < arr2.length; k++) 
+					{
+						if(arr [i][j] == arr2 [j2][k])
+						{
+							flag = false;
+							break;
+						}
+						if(flag == false)
+						{
+							break;
+						}
+					}
 				}
 			}
 		}
-		if(flag == true)
+		if(flag == false)
 		{
-			System.out.println("Elements are same");
+			System.out.println("All the elements of both the arrayn are same");
 		}
 		else
 		{
-			System.out.println("Elements are not same");
+			System.out.println("All the elements of both the arrayn are not same");
 		}
 	}
 }

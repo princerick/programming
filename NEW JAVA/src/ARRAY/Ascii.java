@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Ascii {
 
-//					store ascii values of all char in ana array
+//					store ascii values of all char in an array
 	
 	public static void main(String[] args) {
 		String s = "rick";

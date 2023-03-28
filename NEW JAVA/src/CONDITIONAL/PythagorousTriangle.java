@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PythagorousTriangle {
 	public static void main(String[] args) {
 		
-		// Pythagorean Triples or not...
+		//			 Pythagorean Triples or not...
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the lengths of the 3 sides of a triangle");

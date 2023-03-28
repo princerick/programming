@@ -12,7 +12,11 @@ public class CountWords {
 		System.out.println("Enter the string");
 		String s = sc.nextLine();
 		System.out.println(isCount (s)+" words are present");
+		System.out.println(isCount1 (s)+" words are present");
 	}
+	
+//     					without in-built method	
+	
 	static int isCount (String s)
 	{
 		int count = 1;
@@ -28,5 +32,13 @@ public class CountWords {
 				}
 			}
 		return count;   
+	}
+	
+//						with in-built method
+	
+	 static int isCount1(String s) 
+	{
+		String [] x = s.split(" ");
+		return x.length;
 	}
 }

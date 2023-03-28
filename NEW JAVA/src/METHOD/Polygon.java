@@ -37,6 +37,6 @@ public class Polygon {
 	}
 	static void triangle(int h,int b) {
 		double area=h*b*1/2;
-		System.out.println("Area of rectangle is "+area);
+		System.out.println("Area of triangle is "+area);
 	}
 }

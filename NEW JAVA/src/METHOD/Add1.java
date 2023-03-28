@@ -1,6 +1,6 @@
 package METHOD;
 
-public class M2 {
+public class Add1 {
 	public static void main(String[] args) {
 		System.out.println(add(20, 40));
 		System.out.println(add(20.5, 60.5));

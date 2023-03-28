@@ -1,5 +1,6 @@
 package STRING;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SeperateWords {
@@ -10,6 +11,7 @@ public class SeperateWords {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string");
 		String s = sc.nextLine();
-		System.out.println(s.split(" "));
+		String [] s1 = s.split(" ");
+		System.out.println(Arrays.toString(s1));
 	}
 }

@@ -4,6 +4,7 @@ public class Multiple {
 	public static void main(String[] args) {
 		
 		//Given number is multiple of 8
+		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a number");
 		int n=sc.nextInt();

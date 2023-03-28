@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Cricket {
 	public static void main(String[] args) {
 		
-		//Cricket player's score
+//							Cricket player's score
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your favoiurite cricket palyer innings runs score");

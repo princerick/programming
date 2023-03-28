@@ -1,6 +1,6 @@
 package METHOD;
 
-public class M1 {
+public class Add {
 	static void add()
 	{
 		int a=10;

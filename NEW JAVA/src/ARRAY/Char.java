@@ -3,6 +3,9 @@ package ARRAY;
 import java.util.Scanner;
 
 public class Char {
+	
+//					print 1st and 2nd char of a char array
+	
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the size of an array");

@@ -2,7 +2,7 @@ package STRING;
 
 public class occuranceofRepeatedChar {
 
-//				print char with its occurance without repeated
+//					print char with its occurance 
 	
 	public static void main(String[] args) {
 		

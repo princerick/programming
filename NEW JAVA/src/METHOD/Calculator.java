@@ -7,24 +7,27 @@ public class Calculator {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your choice between add, sub, prod, div, rem, disc");
 		String s=sc.nextLine();
+		System.out.println("Enter two numbers");
+		int n1 = sc.nextInt();		
+		int n2 = sc.nextInt();
 		switch(s) {
 		case "add":
-			add(5,10);
+			add(n1,n2);
 			break;
 		case "sub":
-			sub(50,10);
+			sub(n1,n2);
 			break;
 		case "prod":
-			prod(5,10);
+			prod(n1,n2);
 			break;
 		case "div":
-			div(500,10);
+			div(n1,n2);
 			break;
 		case "rem":
-			rem(56,10);
+			rem(n1,n2);
 			break;
 		case "disc":
-			disc(5000,30);
+			disc(n1,n2);
 			break;
 		}
 	}

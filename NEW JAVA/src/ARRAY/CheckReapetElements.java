@@ -2,7 +2,7 @@ package ARRAY;
 
 import java.util.Scanner;
 
-//			check how many elements are repeated how many times
+//			check the elements are repeated for how many times
 
 public class CheckReapetElements {
 	public static void main(String[] args) {
@@ -19,15 +19,37 @@ public class CheckReapetElements {
 			 System.out.print(a[i]+" ");
 		}
 		System.out.println("\nEnter the search element");
-		int ele=sc.nextInt();
-		int count = 0;
-			for(int j = 0 ; j < size ; j++)
+		int [] visit = new int [a.length];
+		int k = 0;
+		for (int i = 0; i < a.length; i++) 
+		{
+			boolean flag = true;
+			boolean flag1 = true;
+			for(int n = 0 ; n < visit.length ; n++)
 			{
-				if(ele == a[j])
+				if(a[i] == visit[n])
 				{
-					count++;
+					flag1 = false;
+					break;
 				}
 			}
-		System.out.println("\n"+ele+" is present "+count+" times");
+			if(flag1 != false);
+			{
+				for(int j = i+1 ; j < size ; j++)
+				{
+					if(a[i] == a[j])
+					{
+						flag = false;
+						visit[k] = a[i];
+						k++;
+						break;
+					}
+				}
+			}
+			if(flag == false)
+			{
+				System.out.println(a[i]+" is repeated");
+			}
+		}
 	}
 }

@@ -6,8 +6,8 @@ public class NameUppLow
 {
 
 /*		take a name from user and print in such way if the char is in odd 
-		index make it uppercase and if the char is in even index then make it
-		lowercase */
+		index make it lowercase and if the char is in even index then make it
+		uppercase */
 	
 	public static void main(String[] args) 
 	{

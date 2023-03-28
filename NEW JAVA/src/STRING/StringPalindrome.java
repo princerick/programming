@@ -10,7 +10,8 @@ public class StringPalindrome {
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string here");
-		String s = sc.next().toLowerCase();
+		String s = sc.nextLine().toLowerCase();
+		s = s.replace(" ", "");
 		String rev = "";
 		for(int i = s.length()-1 ; i >= 0 ; i--)
 		{

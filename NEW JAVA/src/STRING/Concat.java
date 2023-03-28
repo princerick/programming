@@ -2,7 +2,7 @@ package STRING;
 
 public class Concat {
 
-//							concat tow string	
+//							concat two string	
 	
 	public static void main(String[] args) {
 		String s1 = "Kite";

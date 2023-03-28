@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class FirsthalfSecondHalf {
 
-//		print first half of the string in uppercase and last
+/*		print first half of the string in uppercase and last half 
+								in lowercase*/
 	
 	public static void main(String[] args) 
 	{

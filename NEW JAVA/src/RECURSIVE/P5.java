@@ -3,6 +3,9 @@ package RECURSIVE;
 import java.util.Scanner;
 
 public class P5 {
+	
+//		count how many numbers are present between 15 and user given number
+	
 	static int n1=0;
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String[] args) {
