@@ -1,4 +1,4 @@
-package ARRAY1;
+package KRISHNA_SUNDEEP;
 
 public class FirstDuplicateEle {
 

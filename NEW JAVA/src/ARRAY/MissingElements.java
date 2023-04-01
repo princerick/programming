@@ -18,7 +18,6 @@ public class MissingElements {
 		{
 			a[i] = sc.nextInt();
 		}
-		Arrays.sort(a);
 		for (int i = 0; i < a.length; i++) 
 		{  
 				if(i != a.length - 1)

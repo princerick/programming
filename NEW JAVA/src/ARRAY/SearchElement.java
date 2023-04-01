@@ -15,17 +15,18 @@ public class SearchElement {
 		System.out.println("Enter the search element");
 		int ele=sc.nextInt();
 		boolean flag = true;
-		for(int i = 0 ; i < size ; i++) {
+		int i = 0;
+		for(i = 0 ; i < size ; i++) {
 			if(a[i] == ele) {
 				flag = false;
 				break;
 			}
 		}
 		if(flag == true) {
-			System.out.println(ele+" is not present..");
+			System.out.println(ele+" is not present...");
 		}
 		else {
-			System.out.println(ele+" is present..");
+			System.out.println(ele+" is present at index "+i);
 		}
 	}
 }
